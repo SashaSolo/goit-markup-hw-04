@@ -111,7 +111,7 @@ li {
 .nav-link {
   color: var(--main-link-color);
   font-weight: 500;
-  font-size: var(--font-size-second);
+  font-size: var(--font-size-main);
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
@@ -142,7 +142,7 @@ li {
 .header-contacts {
   color: #757575;
   font-weight: 500;
-  font-size: var(--font-size-second);
+  font-size: var(--font-size-main);
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
