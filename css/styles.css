@@ -135,8 +135,8 @@ li {
   align-items: center;
 }
 
-.header-item:not(:last-child) {
-  margin-right: 30px;
+.header-nav li:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-contacts {
@@ -145,6 +145,10 @@ li {
   font-size: var(--font-size-second);
   line-height: 1.15;
   letter-spacing: 0.02em;
+}
+
+.header-connect li:not(:last-child) {
+  margin-right: 30px;
 }
 
 .header-contacts:hover {
@@ -418,7 +422,6 @@ li {
 }
 
 .customer-icon {
-  margin: 16px 32px;
   width: 106px;
   height: 60px;
   fill: currentColor;
@@ -619,7 +622,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #afb1b8;
+  fill: #ffffff;
 }
 
 .footer-soc-link:hover,
