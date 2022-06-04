@@ -126,7 +126,7 @@ li {
   color: var(--accent-color);
 }
 
-.header-connect {
+.header-contacts {
   margin-left: auto;
 }
 
@@ -135,8 +135,17 @@ li {
   align-items: center;
 }
 
-.header-nav li:not(:last-child) {
+.header-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.header-contacts-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-contacts-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .header-contacts {
@@ -145,10 +154,6 @@ li {
   font-size: var(--font-size-second);
   line-height: 1.15;
   letter-spacing: 0.02em;
-}
-
-.header-connect li:not(:last-child) {
-  margin-right: 30px;
 }
 
 .header-contacts:hover {
@@ -378,6 +383,7 @@ li {
 .teammate-soc-link:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
+  outline-style: none;
 }
 
 /* ----------------MAIN-PAGE--CUSTOMER--------------------- */
@@ -419,6 +425,7 @@ li {
 .customer-link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
+  outline-color: var(--accent-color);
 }
 
 .customer-icon {
@@ -629,4 +636,5 @@ li {
 .footer-soc-link:focus {
   background-color: var(--accent-color);
   fill: var(--main-title-color);
+  outline-style: none;
 }
